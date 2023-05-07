@@ -17,7 +17,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse align-items-center" id="navbarNav">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav ms-auto">
                 <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">Welcome</a>
                 </li>
@@ -35,13 +35,23 @@
     </div>
 </nav>
 <!-- Header With Background Image -->
-<header>
-    <div class="vh-100" style="background-image: url('strumming-starters-logos-images/bg-image-guitar.jpg'); height: 100vh;"></div>
+<header class="vh-100 d-flex align-items-end justify-content-end" style="background-image: url('strumming-starters-logos-images/bg-image-guitar.jpg'); height: 100vh;">
+    <div class="container-lg mt-5">
+        <div class="row">
+            <div class="col-lg-3 ms-auto pb-5">
+                <img src="strumming-starters-logos-images/hi-there.png" alt="Tutorial">
+            </div>
+                <div class="row">
+                 <div class="col-lg-6 ms-auto pb-5">
+                    <p class="text-faded text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor semper libero, vitae bibendum magna varius eu. Duis porttitor dolor vel semper lacinia. Donec nec sodales libero. Suspendisse potenti. Sed interdum consectetur elit, eu tempor enim venenatis eget. Vivamus placerat eros quis nisl dictum, vel faucibus turpis sagittis. Nullam auctor semper libero, vitae bibendum magna varius eu. Duis porttitor dolor vel semper lacinia. Donec nec sodales libero. Suspendisse potenti. Sed interdum consectetur elit, eu tempor enim venenatis eget. Vivamus placerat eros quis nisl dictum, vel faucibus turpis sagittis</p>
+                 </div>
+               </div>
+        </div>
+    </div>
 </header>
 <!-- The Basics -->
 <section class="bg-warning p-2 text-dark bg-opacity-25">
     <div class="container-lg mt-5">
-        <div class="row">
             <div class="header">
                 <img src="strumming-starters-logos-images/header-2.png" alt="The Basics Header">
             </div>
@@ -52,19 +62,53 @@
                         <p class="text-faded">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam auctor semper libero, vitae bibendum magna varius eu. Duis porttitor dolor vel semper lacinia. Donec nec sodales libero. Suspendisse potenti. Sed interdum consectetur elit, eu tempor enim venenatis eget. Vivamus placerat eros quis nisl dictum, vel faucibus turpis sagittis. Nullam auctor semper libero, vitae bibendum magna varius eu. Duis porttitor dolor vel semper lacinia. Donec nec sodales libero. Suspendisse potenti. Sed interdum consectetur elit, eu tempor enim venenatis eget. Vivamus placerat eros quis nisl dictum, vel faucibus turpis sagittis</p>
                             <img src="strumming-starters-logos-images/the-basics-mnemonic.png" alt="Mnemonic">
                     </div>
-                        <div class="col-lg-4">
+                        <div class="col-lg-5">
                             <img src="strumming-starters-logos-images/labeled-guitar.png" alt="Guitar parts">
                         </div>
                 </div>
-        </div>
     </div>
 </section>
 <!-- Tutorials -->
 <section class="bg-warning p-2 text-dark bg-opacity-25">
     <div class="container-lg mt-5">
         <div class="row">
-            <div class="col-9-lg justify-content-end">
+            <div class="col-lg-3 ms-auto">
                 <img src="strumming-starters-logos-images/tutorials-logo.png" alt="Tutorial">
+            </div>
+        </div>
+        <div class="col-lg-9 ms-auto text-end">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu justo eget massa dignissim porttitor. Donec ultricies congue justo, vel porta ex dapibus eu. Sed ut velit sapien. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed eget justo sed mauris lacinia tempor in a leo. Suspendisse nec bibendum nisl, ac vestibulum lacus. Aenean vulputate tincidunt ligula eu consectetur. Praesent vel lobortis nisi. In hac habitasse platea dictumst. Duis nec quam et libero luctus venenatis eget in tellus.</p>
+        </div>
+    </div>
+    <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed bg-warning bg-opacity-25" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Accordion Item #1
+                </button>
+            </h2>
+            <div id="flush-collapseOne" class="accordion-collapse collapse bg-warning bg-opacity-25" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed bg-warning bg-opacity-25" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Accordion Item #2
+                </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse bg-warning bg-opacity-25" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+            </div>
+        </div>
+        <div class="accordion-item">
+            <h2 class="accordion-header">
+                <button class="accordion-button collapsed bg-warning bg-opacity-25" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Accordion Item #3
+                </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse bg-warning bg-opacity-25" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
             </div>
         </div>
     </div>
