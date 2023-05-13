@@ -4,3 +4,8 @@ header {
     background-position: center;
     height: 100vh;
 }
+
+.highligh {
+    color: rgb(132,27,31);
+    font-size: 25px;
+}
