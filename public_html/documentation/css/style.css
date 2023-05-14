@@ -5,7 +5,19 @@ header {
     height: 100vh;
 }
 
+section {
+    background-color: #e4e3e3
+}
+
 .highligh {
     color: rgb(132,27,31);
     font-size: 25px;
+}
+
+.accordion-collapse {
+    background-color: rgb(228, 227, 227);
+}
+
+.accordion-header {
+    background-color: red;
 }
