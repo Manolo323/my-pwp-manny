@@ -21,3 +21,7 @@ section {
 .accordion-header {
     background-color: red;
 }
+b {
+    color: rgb(132,27,31);
+    font-size: 20px;
+}
