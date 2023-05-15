@@ -25,3 +25,9 @@ b {
     color: rgb(132,27,31);
     font-size: 20px;
 }
+.resources {
+    background-image: url("bg-image-guitar.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
